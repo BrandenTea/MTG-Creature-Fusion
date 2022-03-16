@@ -1,0 +1,225 @@
+html,body{
+    padding: auto;
+    margin: auto;
+
+    background-color:darkslategrey;
+
+}
+
+.containerGrid{
+    justify-content: center;
+  align-content: center;
+
+    
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 300px);
+}
+
+
+.pageHeading{
+    
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lavender;
+
+}
+
+.parallax{
+    background-image: url("bambooforest.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.greenButton {
+
+  box-shadow: -3px -3px 3px;
+  background-color: aquamarine;
+  border-radius: 50%;
+}
+
+.blueButton {
+
+    box-shadow: -3px -3px 3px;
+    background-color:cadetblue;
+    border-radius: 50%;
+}
+
+.colorlessButton{
+    box-shadow: -3px -3px 3px ;
+    background-color: beige;
+    border-radius: 50%;
+
+}
+
+
+/*The origin of the pictures(full pictures not cut up*/
+#garrukDisplay {
+
+    display:none;
+}
+
+#jaceDisplay {
+
+    display:none;
+}
+
+#karnDisplay {
+
+    display:none;
+}
+
+
+/*Garruk Section*/
+
+#garruk3TopLeftDisplay{
+
+    display: none;
+}
+
+#garruk3TopMiddleDisplay{
+
+    display: none;
+}
+
+#garruk3TopRightDisplay{
+
+    display:none;
+}
+
+#garruk3MiddleLeftDisplay{
+
+    display: none;
+}
+
+#garruk3MiddleDisplay{
+
+    display: none;
+}
+
+#garruk3MiddleRightDisplay{
+
+    display: none;
+}
+
+#garruk3BottomLeftDisplay{
+
+    display:none;
+}
+
+#garruk3BottomMiddleDisplay {
+
+    display:none;
+}
+
+#garruk3BottomRightDisplay {
+
+    display:none;
+}
+
+/*Jace Section*/
+
+#jace3TopMiddleDisplay {
+
+    display:none;
+}
+
+#jace3TopLeftDisplay {
+
+    display:none;
+}
+
+#jace3TopRightDisplay {
+
+    display:none;
+
+}
+
+#jace3MiddleDisplay {
+
+    display:none;
+    
+}
+
+#jace3MiddleLeftDisplay {
+
+    display:none;
+}
+
+#jace3MiddleRightDisplay {
+
+    display:none;
+}
+
+#jace3BottomLeftDisplay {
+
+    display:none;
+
+}
+
+#jace3BottomMiddleDisplay {
+
+    display:none;
+}
+
+#jace3BottomRightDisplay {
+
+    display:none;
+}
+
+/*Karn Display*/
+
+
+#karn3TopMiddleDisplay {
+
+    display:none;
+}
+
+#karn3TopLeftDisplay {
+
+    display:none;
+}
+
+#karn3TopRightDisplay {
+
+    display:none;
+
+}
+
+#karn3MiddleDisplay {
+
+    display:none;
+    
+}
+
+#karn3MiddleLeftDisplay {
+
+    display:none;
+}
+
+#karn3MiddleRightDisplay {
+
+    display:none;
+}
+
+#karn3BottomLeftDisplay {
+
+    display:none;
+
+}
+
+#karn3BottomMiddleDisplay {
+
+    display:none;
+}
+
+#karn3BottomRightDisplay {
+
+    display:none;
+}
